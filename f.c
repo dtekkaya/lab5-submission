@@ -6,5 +6,6 @@ int calculate f(int x){
   for (i = 1; i <= x; ++i) {
             fact *= i;
   }
-  return fact;
+  int result=fact-1; 
+  return result;
 }
