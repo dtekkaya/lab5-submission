@@ -1,23 +1,10 @@
 #include <stdio.h>
 
+int calculate f(int x){
+  int fact=1;
 
-int ask number(){
-  int number=0;
-  printf("Enter a number between 0 and 10");
-  scanf("%d",&number);
-  if(number<10 && number>0){
-    return (number)
-  }else{
-    printf("Please enter a different number that is in range");
-    scanf("d",&number);
+  for (i = 1; i <= x; ++i) {
+            fact *= i;
   }
+  return fact;
 }
-
-void print result(int result){
-  printf("The result is %d", &result);
-}
-  
-  
-  
-  
-  
